@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/eshuctp/public_html/
+    - /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' --exclude='cgi-bin' --exclude='.well-known' ./ $DEPLOYPATH

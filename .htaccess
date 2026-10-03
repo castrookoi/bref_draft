@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^images/(.*)$ Images/$1 [L,NC]
+RewriteRule ^Company_Profile\.pdf$ company_profile.pdf [L,NC]
+</IfModule>

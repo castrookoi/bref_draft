@@ -1,0 +1,19 @@
+{
+  "name": "eshuaofemarinelimited.com",
+  "version": "2.0.0",
+  "description": "Eshua Ofe Marine Limited - Official Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marine",
+    "offshore",
+    "brokerage",
+    "logistics",
+    "procurement",
+    "nigeria"
+  ],
+  "author": "Eshua Ofe Marine Limited",
+  "license": "ISC"
+}
